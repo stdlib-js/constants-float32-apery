@@ -65,7 +65,7 @@ where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-z
 ## Usage
 
 ```javascript
-import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@esm/index.mjs';
+import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@v0.1.0-esm/index.mjs';
 ```
 
 #### FLOAT32_APERY
@@ -95,7 +95,7 @@ var bool = ( FLOAT32_APERY === 1.202056884765625 );
 <body>
 <script type="module">
 
-import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@esm/index.mjs';
+import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@v0.1.0-esm/index.mjs';
 
 console.log( FLOAT32_APERY );
 // => 1.202056884765625
