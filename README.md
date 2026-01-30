@@ -67,6 +67,11 @@ where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-z
 To use in Observable,
 
 ```javascript
+FLOAT32_APERY = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float32-apery/tags). For example,
+
+```javascript
 FLOAT32_APERY = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@v0.1.0-umd/browser.js' )
 ```
 
@@ -79,7 +84,7 @@ var FLOAT32_APERY = require( 'path/to/vendor/umd/constants-float32-apery/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -117,7 +122,7 @@ var bool = ( FLOAT32_APERY === 1.202056884765625 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
