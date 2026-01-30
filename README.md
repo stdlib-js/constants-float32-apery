@@ -65,6 +65,11 @@ where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-z
 ## Usage
 
 ```javascript
+import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float32-apery/tags). For example,
+
+```javascript
 import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@v0.1.0-deno/mod.js';
 ```
 
@@ -90,7 +95,7 @@ var bool = ( FLOAT32_APERY === 1.202056884765625 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@v0.1.0-deno/mod.js';
+import FLOAT32_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-apery@deno/mod.js';
 
 console.log( FLOAT32_APERY );
 // => 1.202056884765625
